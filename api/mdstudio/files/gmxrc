@@ -1,0 +1,7 @@
+
+# Load modules
+. /etc/profile.d/modules.sh
+module load gromacs/cuda/2018.3
+
+# Environmental variable
+GMXRC_MDSTUDIO=/cm/shared/package/gromacs/cuda/2018.3/bin/GMXRC.bash
